@@ -1,0 +1,18 @@
+.tree-child-container {
+  padding-left: 1em;
+  display: none;
+}
+
+.tree-open-toggle {
+  display: inline-block;
+  width: 1.2em;
+}
+
+.tree-selected-toggle {
+  display: inline-block;
+  width: 1.2em;
+}
+
+.m-open > .tree-child-container {
+  display: block;
+}

@@ -1,0 +1,47 @@
+{
+  "name": "mobx-treeview",
+  "version": "1.0.0",
+  "description": "Minimal example of tree component using mobx.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daimeng/mobx-treeview.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "tree",
+    "treeview",
+    "mobx"
+  ],
+  "author": "daimengchen@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daimeng/mobx-treeview/issues"
+  },
+  "homepage": "https://github.com/daimeng/mobx-treeview#readme",
+  "devDependencies": {
+    "@kadira/storybook": "^2.21.0",
+    "css-loader": "^0.26.0",
+    "font-awesome": "^4.7.0",
+    "font-awesome-webpack": "^0.0.4",
+    "less": "^2.7.1",
+    "react-fontawesome": "^1.4.0"
+  },
+  "dependencies": {
+    "aphrodite": "^1.1.0",
+    "mobx": "^2.6.3",
+    "mobx-react": "^4.0.3",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "peerDependencies": {
+    "mobx-react": "^4.0.3",
+    "react": "^15.4.1"
+  }
+}
