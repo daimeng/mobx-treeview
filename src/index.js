@@ -51,7 +51,3 @@ export function defaultCheckbox({ vm, ...rest }) {
 export function defaultChildContainer({ vm, ...rest }) {
     return h('div', rest);
 }
-
-export function model() {
-    
-}
